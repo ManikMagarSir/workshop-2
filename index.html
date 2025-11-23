@@ -13,6 +13,8 @@
         <p>Welcome to My Portfolio</p>
     </header>
     <nav>
+        <p class="hamburger" id="hamburger">☰</p>
+        <p class="ex">X</p>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about-me">About Me</a></li>
@@ -37,17 +39,17 @@
             <h2>Projects</h2>
             <div id="mainp">
                 <div class="project">
-                    <h3>Project Title 1</h3>
+                    <h3>Weather App</h3>
                     <img src="images/Weather.png" alt="Project 1">
                     <p>Description of project 1.</p>
                 </div>
                 <div class="project">
-                    <h3>Project Title 2</h3>
+                    <h3>2D Obby Game</h3>
                     <img src="images/2dobbygame.png" alt="Project 2">
                     <p>Description of project 2.</p>
                 </div>
                 <div class="project">
-                    <h3>Project Title 3</h3>
+                    <h3>Task Manager</h3>
                     <img src="images/Task Manager.png" alt="Project 3">
                     <p>Description of project 3.</p>
                 </div>           
@@ -56,18 +58,21 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <form action="#" method="post">
+            <form>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" >
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" >
                 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="message" ></textarea>
                 
-                <button type="submit">Send</button>
+                <button type="submit" class="btn">Send</button>
             </form>
+            <div class="msg">
+                <p class="hehe">Thank you for your message! I will be in touch shortly.</p>
+            </div>
         </section>
     </main>
     <footer>
