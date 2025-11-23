@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Manik Magar</h1>
+        <p>Welcome to My Portfolio</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <video autoplay loop muted>
+                <source src="images/bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>About Me</h2>
+            <div class="about">
+                <img src="images/tiger.jpeg" alt="Manik Magar">
+                <h3>Manik Magar</h3>
+                <p>Developer | Innovator | Tech Enthusiast</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="mainp">
+                <div class="project">
+                    <h3>Project Title 1</h3>
+                    <img src="images/Weather.png" alt="Project 1">
+                    <p>Description of project 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <img src="images/2dobbygame.png" alt="Project 2">
+                    <p>Description of project 2.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 3</h3>
+                    <img src="images/Task Manager.png" alt="Project 3">
+                    <p>Description of project 3.</p>
+                </div>           
+            </div>
+           
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Manik Magar. All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
